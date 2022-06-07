@@ -1,0 +1,12 @@
+.container {
+	display: block;
+	margin: 0 auto;
+	border-left: 10px double black;
+	border-top: 5px dotted black;
+	border-right: 10px dashed blue;
+	border-bottom: 5px solid red;
+}
+h1,
+p {
+	padding: 25px;
+}
