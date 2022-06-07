@@ -1,0 +1,44 @@
+.red {
+	display: block;
+	background-color: red;
+	width: 250px;
+	height: 250px;
+	border: 2px solid black;
+	margin: 0 auto;
+	margin-top: 50px;
+	position: relative;
+}
+
+.one,
+.two,
+.three,
+.four {
+	background-color: yellow;
+	display: block;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	line-height: 0px;
+	border: 2px solid black;
+	border-radius: 25px;
+	position: absolute;
+}
+.one {
+	left: -15px;
+	top: -15px;
+}
+
+.two {
+	right: -15px;
+	top: -15px;
+}
+
+.three {
+	bottom: -15px;
+	left: -15px;
+}
+
+.four {
+	bottom: -15px;
+	right: -15px;
+}

@@ -1,0 +1,10 @@
+.container {
+	display: block;
+	width: 200px;
+	height: 200px;
+	background-color: red;
+	outline: 5px dotted black;
+}
+.container:hover {
+	outline: 15px dotted green;
+}
