@@ -1,0 +1,71 @@
+div {
+	display: block;
+	margin: 0 auto;
+	top: 11.5px;
+	border-radius: 50%;
+}
+
+.silver {
+	background-color: silver;
+	width: 250px;
+	height: 250px;
+	box-shadow: 2px 2px 5px;
+	margin: 0 auto;
+}
+.red-0 {
+	width: 25px;
+	height: 25px;
+	background-color: red;
+	position: relative;
+}
+
+.red-1 {
+	width: 75px;
+	height: 75px;
+	background-color: red;
+	position: relative;
+}
+.red-2 {
+	width: 125px;
+	height: 125px;
+	background-color: red;
+	position: relative;
+}
+.red-3 {
+	width: 175px;
+	height: 175px;
+	background-color: red;
+	position: relative;
+}
+
+.red-4 {
+	width: 225px;
+	height: 225px;
+	background-color: red;
+	position: relative;
+}
+.white-0 {
+	width: 50px;
+	height: 50px;
+	background-color: white;
+	position: relative;
+}
+.white-1 {
+	width: 100px;
+	height: 100px;
+	background-color: white;
+	position: relative;
+}
+
+.white-2 {
+	width: 150px;
+	height: 150px;
+	background-color: white;
+	position: relative;
+}
+.white-3 {
+	width: 200px;
+	height: 200px;
+	background-color: white;
+	position: relative;
+}

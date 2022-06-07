@@ -1,0 +1,70 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.green,
+.yellow,
+.blue,
+.cyan {
+	display: block;
+	margin: 5px 5px;
+}
+
+.green {
+	background-color: #ffa334;
+	height: 50px;
+}
+.yellow {
+	background-color: #daec00;
+	height: 75px;
+}
+.blue {
+	background-color: #4a89d0;
+	height: 150px;
+}
+.cyan {
+	background-color: #e3e3e3;
+	height: 50px;
+}
+
+@media screen and (min-width: 321px) {
+	footer {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.cyan {
+		width: calc(50% - 10px);
+	}
+	.blue {
+		height: 100px;
+	}
+	.yellow {
+		height: 150px;
+	}
+}
+
+@media screen and (min-width: 769px) {
+	nav {
+		display: flex;
+	}
+	.green {
+		width: 50%;
+	}
+	.yellow {
+		height: 200px;
+	}
+
+	.posts {
+		display: flex;
+	}
+
+	.blue {
+		height: 200px;
+		width: 33%;
+	}
+	.cyan {
+		width: calc(25% - 10px);
+		height: 200px;
+	}
+}
