@@ -1,0 +1,18 @@
+h1 {
+	color: #b7d155;
+}
+h1:hover {
+	color: rebeccapurple;
+}
+body {
+	background-color: #fedead;
+}
+p {
+	column-count: 3;
+	column-gap: 40px;
+	column-rule: 2px double red;
+}
+p:hover {
+	background-color: aquamarine;
+	color: blue;
+}
